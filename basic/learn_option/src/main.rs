@@ -19,6 +19,10 @@ fn main() {
         None => println!("result is none"),
     }
    
+    if let Some(value) = plus_one(y){
+        println!("value = {}",value);
+
+    }
     println!("Hello, world!");
 }
 
