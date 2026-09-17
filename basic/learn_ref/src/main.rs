@@ -13,7 +13,7 @@ fn change_str(s: &mut String) {
 fn return_ownership() -> String {
     let s = String::from("返回所有权");
     s
-}
+} 
 
 // ========== 计算长度 ================
 fn calcute_length(s: &String) ->usize{
