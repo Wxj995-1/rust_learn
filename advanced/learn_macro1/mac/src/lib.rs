@@ -9,7 +9,7 @@ macro_rules! my_vec{
         )*
         temp_vec
         }
-    }
+    };
 }
 
 

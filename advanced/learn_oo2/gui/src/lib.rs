@@ -8,7 +8,7 @@ pub trait Draw
 - trait 对象 dyn Draw：编译期不知道具体类型，运行期通过虚表（vtable）查"这个对象该调哪个 draw" → 能混合放不同类型，
   代价是一点点运行时开销（间接调用）。
 */
-pub struct Screen
+pub struct Screen   
 {
     pub components: Vec<Box<dyn Draw>>, // trait对象，使用dyn关键字
 } 
