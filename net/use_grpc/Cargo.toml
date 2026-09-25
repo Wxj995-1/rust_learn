@@ -1,0 +1,19 @@
+[package]
+name = "use_grpc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+protobuf = "=2.18.2"
+grpc = "0.7.1"
+grpc-protobuf = "0.7.1"
+futures = "0.3.*"
+tls-api = "0.3.*"
+
+
+[build-dependencies]
+protoc-rust-grpc = "0.7.1"
+protobuf = "=2.18.2"
+protobuf-codegen = "=2.18.2"
+protoc = "=2.18.2"
+protoc-rust = "=2.18.2"
