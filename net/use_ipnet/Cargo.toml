@@ -1,0 +1,7 @@
+[package]
+name = "use_ipnet"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ipnet = "2.3.0"
