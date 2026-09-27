@@ -27,12 +27,12 @@ fn main() {
             return;
         }
         Err(e) => {
-            eprintln!("无法打开通道: {e}（Linux 上通常需要 sudo）");
+            eprintln!("无法打开通道: {e}(Linux 上通常需要 sudo)");
             return;
         }
     };
 
-    println!("正在监听 {} ...（Ctrl-C 退出）", interface.name);
+    println!("正在监听 {} ...(Ctrl-C 退出)", interface.name);
 
     loop {
         match rx.next() {
