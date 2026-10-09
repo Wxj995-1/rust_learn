@@ -7,7 +7,7 @@ REPO_DIR="${REPO_DIR:-$(pwd)}"
 cd "$REPO_DIR"
 
 # 提交说明：优先用参数，否则用时间戳
-MSG="${1:-update: $(date '+%Y-%m-%d %H:%M:%S')}"
+MSG="${1:-rust: $(date '+%Y-%m-%d %H:%M:%S')}"
 
 # 1. 还不是仓库就初始化
 if [ ! -d .git ]; then
